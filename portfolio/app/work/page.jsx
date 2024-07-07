@@ -16,7 +16,6 @@ import {
 
 import Link from "next/link";
 import Image from "next/image";
-import { Description } from "@radix-ui/react-dialog";
 
 import WorkSliderBtns from "@/components/ui/workSliderBtns";
 
@@ -28,8 +27,8 @@ const projects = [
     description:
       "Vroom is a user-friendly web application designed to provide a seamless car rental experience. The platform allows users to easily browse and select from a variety of available cars, read customer testimonials, and make informed rental decisions. ",
     stack: [{ name: "Css 5" }, { name: "ReactJs" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
+    image: "/assets/work/thumb1.png",
+    live: "https://github.com/Abderrahmen-Malouche/vroom",
     github: "https://github.com/Abderrahmen-Malouche/vroom",
   },
   {
@@ -45,8 +44,8 @@ const projects = [
       { name: "nodeJs" },
       { name: "MongoDb" },
     ],
-    image: "/assets/work/thumb2.png",
-    live: "",
+    image: "/assets/work/thumb3.png",
+    live: "https://github.com/Abderrahmen-Malouche/BEEVOLVE",
     github: "https://github.com/Abderrahmen-Malouche/BEEVOLVE",
   },
   {
@@ -56,8 +55,8 @@ const projects = [
     description:
       "A web application where travelers can find details and information about travel destinations",
     stack: [{ name: "Tailwind.css" }, { name: "ReactJs" }, { name: "NextJs" }],
-    image: "/assets/work/thumb3.png",
-    live: "",
+    image: "/assets/work/thumb2.png",
+    live: "https://github.com/Abderrahmen-Malouche/hilink",
     github: "https://github.com/Abderrahmen-Malouche/hilink",
   },
   {
@@ -67,7 +66,7 @@ const projects = [
     description:
       "A web application where travelers can find details and information about travel destinations",
     stack: [{ name: "Unity" }, { name: "3ds Max" }, { name: "Vuforia Engine" }],
-    image: "/assets/work/thumb3.png",
+    image: "/assets/work/thumb4.png",
     live: "",
     github: "",
   },
@@ -82,7 +81,7 @@ const Work = () => {
   return (
     <motion.section
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
+      animate={{ opacity: 1 , transition:{delay:2.4, duration: 0.4,ease:"easeIn"}}}
       className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
     >
       <div className="container mx-auto">
@@ -167,8 +166,10 @@ const Work = () => {
                 );
               })}
               {/* buttons */}
-              <WorkSliderBtns containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_ - _22px)] xl:bottom-30 z-20 w-full justify-between xl:w-max xl:justify-none" 
-              btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"/>
+              <WorkSliderBtns
+                containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
+                btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
+              />
             </Swiper>
           </div>
         </div>
