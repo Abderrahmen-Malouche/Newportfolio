@@ -1,9 +1,15 @@
+"use client"; 
+
 import Socials from "@/components/Socials";
 import Stats from "@/components/Stats";
 import Photo from "@/components/ui/Photo";
 import { Button } from "@/components/ui/button";
+import { use } from "react";
 import { FiDownload } from "react-icons/fi";
 const Home = () => {
+  const handleDownload = () => {
+    alert("The CV has been downloaded!");
+  };
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
@@ -26,8 +32,15 @@ const Home = () => {
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
+                <a
+                  href="./assets/Abderrahmen_Malouche_CV.pdf"
+                  download
+                  className="uppercase flex items-center gap-2  px-4 py-2 rounded-lg "
+                  onClick={handleDownload}
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </a>
               </Button>
               <div className="mb-8 xl:mb-0">
                 <Socials
@@ -38,12 +51,12 @@ const Home = () => {
             </div>
           </div>
           {/*  photo*/}
-          <div className="order-1 xl:order-none mb-8 xl:mb-0">
-            <Photo/>
+          <div className="order-1 xl:order-none mb-8 xl:mb-0 ">
+            <Photo />
           </div>
         </div>
       </div>
-      <Stats/>
+      <Stats />
     </section>
   );
 };

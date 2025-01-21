@@ -23,52 +23,13 @@ const projects = [
   {
     num: "01",
     category: "FrontEnd",
-    title: "Vroom",
+    title: "Nike Clone",
     description:
-      "Vroom is a user-friendly web application designed to provide a seamless car rental experience. The platform allows users to easily browse and select from a variety of available cars, read customer testimonials, and make informed rental decisions. ",
-    stack: [{ name: "Css 5" }, { name: "ReactJs" }],
-    image: "/assets/work/thumb1.png",
-    live: "https://github.com/Abderrahmen-Malouche/vroom",
-    github: "https://github.com/Abderrahmen-Malouche/vroom",
-  },
-  {
-    num: "02",
-    category: "FullStack",
-    title: "Beevolve",
-    description:
-      "A web application where gamers can log in and get coached by pro players and find some guides in famous online mulitplayer games ",
-    stack: [
-      { name: "Css 5" },
-      { name: "ReactJs" },
-      { name: "ExpressJs" },
-      { name: "nodeJs" },
-      { name: "MongoDb" },
-    ],
-    image: "/assets/work/thumb3.png",
-    live: "https://github.com/Abderrahmen-Malouche/BEEVOLVE",
-    github: "https://github.com/Abderrahmen-Malouche/BEEVOLVE",
-  },
-  {
-    num: "03",
-    category: "FrontEnd",
-    title: "HiLink",
-    description:
-      "A web application where travelers can find details and information about travel destinations",
-    stack: [{ name: "Tailwind.css" }, { name: "ReactJs" }, { name: "NextJs" }],
-    image: "/assets/work/thumb2.png",
-    live: "https://github.com/Abderrahmen-Malouche/hilink",
-    github: "https://github.com/Abderrahmen-Malouche/hilink",
-  },
-  {
-    num: "04",
-    category: "AR Application",
-    title: "Gymmy",
-    description:
-      "A web application where travelers can find details and information about travel destinations",
-    stack: [{ name: "Unity" }, { name: "3ds Max" }, { name: "Vuforia Engine" }],
-    image: "/assets/work/thumb4.png",
-    live: "",
-    github: "",
+      "This is a practice project for honing my Tailwind CSS skills, built using React with Vite ⚡ for a fast and efficient development experience. The project focuses on creating a responsive and visually appealing homepage inspired by Nike's iconic design.",
+    stack: [{ name: "Tailwind.css" }, { name: "ReactJs" }],
+    image: "/assets/work/thumb5.png",
+    live: "https://nike-ro0spfzw1-abderrahmen-malouches-projects.vercel.app",
+    github: "https://github.com/Abderrahmen-Malouche/Nike",
   },
 ];
 
