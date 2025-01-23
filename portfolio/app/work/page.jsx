@@ -27,9 +27,41 @@ const projects = [
     description:
       "This is a practice project for honing my Tailwind CSS skills, built using React with Vite ⚡ for a fast and efficient development experience. The project focuses on creating a responsive and visually appealing homepage inspired by Nike's iconic design.",
     stack: [{ name: "Tailwind.css" }, { name: "ReactJs" }],
-    image: "/assets/work/thumb5.png",
+    image: "/assets/work/thumb1.png",
     live: "https://nike-ro0spfzw1-abderrahmen-malouches-projects.vercel.app",
     github: "https://github.com/Abderrahmen-Malouche/Nike",
+  },
+  {
+    num: "02",
+    category: "FullStack",
+    title: "Netflix Clone",
+    description:
+      "This is a practice project for mastering state management with Redux and implementing Firebase Authentication. Built using React with Vite ⚡, it leverages the TMDB API to display trending movies and TV shows, with a responsive design styled using Tailwind CSS.",
+    stack: [
+      { name: "Tailwind.css" },
+      { name: "ReactJs" },
+      { name: "Redux" },
+      { name: "Firebase" },
+    ],
+    image: "/assets/work/thumb2.png",
+    live: "https://nike-ro0spfzw1-abderrahmen-malouches-projects.vercel.app",
+    github: "https://github.com/Abderrahmen-Malouche/netflix-clone",
+  },
+  {
+    num: "03",
+    category: "FullStack",
+    title: "RealTime Chat App",
+    description:
+      "A responsive web-based real-time chat application built with React, Firebase, and Vanilla CSS. It features real-time messaging, user authentication, and a clean, intuitive design. Users can securely exchange messages with a smooth and responsive UI , can also send emojies and tailored for desktops and laptops. Perfectly crafted to demonstrate skills in frontend development and Firebase integration.",
+    stack: [
+      { name: "Vanilla Css" },
+      { name: "ReactJs" },
+      { name: "Redux" },
+      { name: "Firebase" },
+    ],
+    image: "/assets/work/thumb3.png",
+    live: "https://nike-ro0spfzw1-abderrahmen-malouches-projects.vercel.app",
+    github: "https://github.com/Abderrahmen-Malouche/RealTime-Chat-App",
   },
 ];
 
@@ -42,7 +74,10 @@ const Work = () => {
   return (
     <motion.section
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1 , transition:{delay:2.4, duration: 0.4,ease:"easeIn"}}}
+      animate={{
+        opacity: 1,
+        transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+      }}
       className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
     >
       <div className="container mx-auto">
