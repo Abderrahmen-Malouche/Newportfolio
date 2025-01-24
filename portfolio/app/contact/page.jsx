@@ -22,7 +22,7 @@ const info=[
   {
     icon:<FaMapMarkerAlt/>,
     title: "Address",
-    Description:"Sziv Utca 16, Budapest 1063"
+    Description:"Budapest, Hungary"
   },
 ]
 
