@@ -44,7 +44,7 @@ const projects = [
       { name: "Firebase" },
     ],
     image: "/assets/work/thumb2.png",
-    live: "https://nike-ro0spfzw1-abderrahmen-malouches-projects.vercel.app",
+    live: "https://netflix-clone-one-omega-71.vercel.app",
     github: "https://github.com/Abderrahmen-Malouche/netflix-clone",
   },
   {
@@ -109,7 +109,7 @@ const Work = () => {
               {/* buttons */}
               <div className="flex items-center gap-4">
                 {/* Live Porject Button */}
-                <Link href={project.github}>
+                <Link href={project.live}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
