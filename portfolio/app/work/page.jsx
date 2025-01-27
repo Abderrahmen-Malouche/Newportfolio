@@ -60,7 +60,7 @@ const projects = [
       { name: "Firebase" },
     ],
     image: "/assets/work/thumb3.png",
-    live: "https://nike-ro0spfzw1-abderrahmen-malouches-projects.vercel.app",
+    live: "https://real-time-chat-app-blue-delta.vercel.app/",
     github: "https://github.com/Abderrahmen-Malouche/RealTime-Chat-App",
   },
 ];
