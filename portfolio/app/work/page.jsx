@@ -63,6 +63,22 @@ const projects = [
     live: "https://real-time-chat-app-blue-delta.vercel.app/",
     github: "https://github.com/Abderrahmen-Malouche/RealTime-Chat-App",
   },
+  {
+    num: "04",
+    category: "FullStack",
+    title: "E-commerce Website",
+    description:
+      "A sleek and responsive clothing e-commerce website built with React, Tailwind CSS, Express.js, and MongoDB. It features a modern UI, seamless product browsing, secure authentication, and a smooth shopping experience tailored for desktops and laptops.",
+    stack: [
+      { name: "TailwindCss" },
+      { name: "ReactJs" },
+      { name: "ExpressJs" },
+      { name: "MongoDB" },
+    ],
+    image: "/assets/work/thumb4.png",
+    live: "https://forever-frontend-eight-wheat.vercel.app/",
+    github: "https://https://github.com/Abderrahmen-Malouche/e-commerce",
+  }
 ];
 
 const Work = () => {
